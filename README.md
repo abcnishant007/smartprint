@@ -18,10 +18,27 @@ veryLongVariableName = 25
 sprint (veryLongVariableName)
 ```
 
-## Output:
+#### Output:
 ```python
 veryLongVariableName : 25
 ```
+
+
+## Works with multiple variables and all kinds of objects 
+```python
+from smartprint import smartprint as sprint 
+import numpy as np 
+
+a = [1,22,31]
+sprint (a, len(a))
+sprint (np.random.rand())
+```
+### Output:
+```
+a, len(a) : [1, 22, 31] 3
+np.random.rand() : 0.649617730484109
+```
+
 
 ## Installation 
 ```
