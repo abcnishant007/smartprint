@@ -1,13 +1,17 @@
 import inspect
 
-def smartprint(arg):
+def smartprint(*argv):
     """
     The string representation of the argument is
     concatenated to its value
     """
     try:
-        dictitems = inspect.currentframe().f_back.f_locals.items()
-        prev_name = [prev_name for prev_name, prev_val in dictitems if prev_val is arg][0]
-        print (prev_name, ":" , arg)
+        line_of_code = inspect.getframeinfo(inspect.stack()[1][0]).code_context[0]
+        print(line_of_code)
+        message = line_of_code.replace("smartprint", "").replace("sprint").strip()[1:-1]
+        print(message, ":", *argv)
     except:
-        print (arg)
+        print(*argv)
+
+
+
