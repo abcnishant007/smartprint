@@ -5,7 +5,7 @@ Save a few seconds with every print statement
 - Everytime you want to print something, you lose a few seconds to type in the name of the variable being printed
 - Worse still, your IDE helps you autocomplete long variable names but does not autocomplete the print comments
 
-## Your usual print statment 
+## Your usual print statment: 
 ```python
 print ("veryLongVariableName : ", veryLongVariableName)
 ```
