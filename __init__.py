@@ -1,5 +1,6 @@
 import inspect
 
+
 def smartprint(*argv):
     """
     The string representation of the argument is
@@ -7,11 +8,7 @@ def smartprint(*argv):
     """
     try:
         line_of_code = inspect.getframeinfo(inspect.stack()[1][0]).code_context[0]
-        print(line_of_code)
-        message = line_of_code.replace("smartprint", "").replace("sprint").strip()[1:-1]
+        message = line_of_code.replace("smartprint", "").replace("sprint", "").strip()[1:-1]
         print(message, ":", *argv)
     except:
         print(*argv)
-
-
-
