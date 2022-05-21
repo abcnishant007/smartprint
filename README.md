@@ -8,17 +8,22 @@ Save a few seconds with every print statement
 
 ```
 
-Enter smart print:
+## Enter smart print:
 ```
 from smartprint import smartprint as sprint
 veryLongVariableName = 25
 sprint (veryLongVariableName)
 ```
 
-Output:
+## Output:
 ```
 veryLongVariableName : 25
 ```
 
+## Installation 
+```
+pip install smartprint
+```
 
-Please feel free to start a pull request. 
+## Issues
+Please feel free to start a pull request/ raise an issue. 
