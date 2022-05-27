@@ -7,7 +7,7 @@ Save a few seconds and a few keystrokes with every print statement! 😎
 
 ## Your usual print statment: 
 ```python
-print ("veryLongVariableName : ", veryLongVariableName)
+print ("veryLongVariableName : ", veryLongVariableName) 
 ```
 
 ## Enter smart print:
