@@ -1,9 +1,9 @@
+import unittest
+import sys
+sys.path.append("../")
 import numpy as np
 import io
 from __init__ import smartprint as sprint
-import unittest
-import sys
-sys.path.append("/Users/nishant/smartprint")
 
 
 class SmartPrintTests(unittest.TestCase):
