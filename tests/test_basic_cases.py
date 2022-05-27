@@ -1,9 +1,9 @@
+import numpy as np
+import io
+from __init__ import smartprint as sprint
 import unittest
 import sys
 sys.path.append("/Users/nishant/smartprint")
-from __init__ import smartprint as sprint
-import io
-import numpy as np
 
 
 class SmartPrintTests(unittest.TestCase):
@@ -21,7 +21,6 @@ class SmartPrintTests(unittest.TestCase):
 
         sys.stdout = old_stdout
 
-
     def test_other_objects(self):
         redir_to_var = io.StringIO()
         old_stdout = sys.stdout
@@ -34,7 +33,6 @@ class SmartPrintTests(unittest.TestCase):
         assert redir_to_var.getvalue().strip() == "np.random.rand() : 0.5488135039273248"
 
         sys.stdout = old_stdout
-
 
 
 # if __name__ == "__main__":
