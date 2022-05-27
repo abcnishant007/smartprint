@@ -1,6 +1,5 @@
 import unittest
 import sys
-sys.path.append("../")
 import numpy as np
 import io
 from __init__ import smartprint as sprint
@@ -34,8 +33,17 @@ class SmartPrintTests(unittest.TestCase):
 
         sys.stdout = old_stdout
 
+    def test_any_keyword_name_import(self):
+        redir_to_var = io.StringIO()
+        old_stdout = sys.stdout
+        sys.stdout = redir_to_var
 
-# if __name__ == "__main__":
-#     SmartPrintTests.test_numeric_value()
-#     SmartPrintTests.test_other_objects()
-#     # SmartPrintTests.test_other_objects()
+        # actual call
+        np.random.seed(0)
+        from __init__ import smartprint as random_name
+
+        random_name(np.random.rand())
+
+        assert redir_to_var.getvalue().strip() == "np.random.rand() : 0.5488135039273248"
+
+        sys.stdout = old_stdout
