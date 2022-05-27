@@ -15,7 +15,7 @@ print ("veryLongVariableName : ", veryLongVariableName)
 from smartprint import smartprint as sprint
 
 veryLongVariableName = 25
-sprint (veryLongVariableName)
+sprint (veryLongVariableName) 
 ```
 
 #### Output:
