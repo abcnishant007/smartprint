@@ -22,7 +22,7 @@ sprint (veryLongVariableName)
 ```python
 veryLongVariableName : 25
 ```
-
+ 
 
 ## Works with multiple variables and all kinds of objects 
 ```python
