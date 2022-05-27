@@ -12,7 +12,7 @@ print ("veryLongVariableName : ", veryLongVariableName)
 
 ## Enter smart print:
 ```python
-from smartprint import smartprint as sprint
+from smartprint import smartprint as sprint 
 
 veryLongVariableName = 25
 sprint (veryLongVariableName)
