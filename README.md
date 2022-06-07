@@ -1,6 +1,6 @@
 
 ## smartprint
-Save a few seconds and a few keystrokes with every print statement! 😎 
+Save a few seconds and a few keystrokes with every print statement! 😎  
 
 #### Usual print statment: 
 ```python
