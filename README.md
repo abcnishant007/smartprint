@@ -1,4 +1,6 @@
 
+[![Python application](https://github.com/abcnishant007/smartprint/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/abcnishant007/smartprint/actions/workflows/python-app.yml)
+
 ## smartprint
 Save a few seconds and a few keystrokes with every print statement! 😎 
 
