@@ -9,7 +9,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="smartprint",
-    version="0.1.2",
+    version="0.1.3",
     author="abcnishant007",
     author_email="abc.nishant007@gmail.com",
     description="Include the variable name in print statements",
@@ -25,6 +25,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     package_dir={"": "src"},
-    packages=setuptools.find_packages(where="src"),
+    packages=setuptools.find_packages(where="smartprint"),
     python_requires=">=3.6",
 )
