@@ -5,8 +5,6 @@ import io
 import os
 import sys
 
-sys.path.append("/Users/nishant/Documents/GitHub/smartprint")
-os.chdir("/Users/nishant/Documents/GitHub/smartprint")
 from __init__ import smartprint as sprint
 
 
