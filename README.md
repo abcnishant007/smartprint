@@ -53,3 +53,6 @@ pip install smartprint
 
 #### Issues
 Please feel free to start a pull request/ raise an issue. 
+
+#### Code coverage plot
+<img src="https://codecov.io/gh/abcnishant007/smartprint/branch/main/graphs/tree.svg?token=JW8K38C2QR" alt="drawing" width="120"/>
