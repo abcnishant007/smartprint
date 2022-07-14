@@ -3,7 +3,7 @@ import sys
 import numpy as np
 import io
 
-from __init__ import smartprint as sprint
+from src.smartprint.__init__ import smartprint as sprint
 
 
 class SmartPrintTestsInLinePrints(unittest.TestCase):
