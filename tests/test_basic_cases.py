@@ -5,7 +5,7 @@ import io
 import os
 import sys
 
-from __init__ import smartprint as sprint
+from src.smartprint.__init__ import smartprint as sprint
 
 
 class SmartPrintTests(unittest.TestCase):
