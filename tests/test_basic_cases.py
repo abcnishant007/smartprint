@@ -58,7 +58,7 @@ class SmartPrintTests(unittest.TestCase):
 
         # actual call
         np.random.seed(0)
-        from __init__ import smartprint as random_name
+        from src.smartprint.__init__ import smartprint as random_name
 
         random_name(np.random.rand())
 
