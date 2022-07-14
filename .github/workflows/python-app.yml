@@ -40,6 +40,5 @@ jobs:
         # the current path is added
         python -m pytest tests
         steps:
-    - name: Codecov
-      uses: codecov/codecov-action@v3.1.0
+
 
