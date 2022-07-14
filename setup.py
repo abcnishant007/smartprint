@@ -10,7 +10,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setuptools.setup(
     name="smartprint",
     version="0.1.2",
-    author="abcnishant007, nickdelgrosso",
+    author="abcnishant007",
     author_email="abc.nishant007@gmail.com",
     description="Include the variable name in print statements",
     long_description=long_description,
