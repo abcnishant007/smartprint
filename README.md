@@ -1,6 +1,5 @@
 
-[![Python application](https://github.com/abcnishant007/smartprint/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/abcnishant007/smartprint/actions/workflows/python-app.yml)  [![Upload Python Package](https://github.com/abcnishant007/smartprint/actions/workflows/python-publish.yml/badge.svg)](https://github.com/abcnishant007/smartprint/actions/workflows/python-publish.yml)  [![Code coverage](https://github.com/abcnishant007/smartprint/actions/workflows/codecov.yml/badge.svg)](https://github.com/abcnishant007/smartprint/actions/workflows/codecov.yml)
-
+[![Python application](https://github.com/abcnishant007/smartprint/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/abcnishant007/smartprint/actions/workflows/python-app.yml)  [![Upload Python Package](https://github.com/abcnishant007/smartprint/actions/workflows/python-publish.yml/badge.svg)](https://github.com/abcnishant007/smartprint/actions/workflows/python-publish.yml)  [![codecov](https://codecov.io/gh/abcnishant007/smartprint/branch/main/graph/badge.svg?token=JW8K38C2QR)](https://codecov.io/gh/abcnishant007/smartprint)
 ## smartprint
 Save a few seconds and a few keystrokes with every print statement! 😎 
 
