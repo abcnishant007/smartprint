@@ -13,6 +13,9 @@ def smartprint(*argv, **kwargs):
     closing_bracket_location = line_of_code.rfind(")")
     extracted_code = line_of_code[opening_bracket_location:closing_bracket_location]
 
+    # additional test to make sure extra brackets do not wreck our code
+    extracted_code = extracted_code.replace("sprint", "").replace("smartprint", "").replace("prints","")
+
     if len(argv) == 1 and len(kwargs) == 0:
         if isinstance(argv[0], list):
             helper_smartprint_list(argv[0], extracted_code)
