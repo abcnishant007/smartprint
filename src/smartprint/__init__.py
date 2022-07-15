@@ -15,7 +15,7 @@ def smartprint(*argv, **kwargs):
 
     # additional test to make sure extra brackets do not wreck our code
     extracted_code = extracted_code.replace("sprint", "").replace("prints", "").\
-                            replace("smartprint","").replace("print")
+                            replace("smartprint","").replace("print","")
 
     if len(argv) == 1 and len(kwargs) == 0:
         if isinstance(argv[0], list):
