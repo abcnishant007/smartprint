@@ -37,6 +37,9 @@ a, len(a) : [1, 22, 31] 3
 np.random.rand() : 0.649617730484109
 ```
 
+Now, `smartprint` includes pretty print (through `pprint` module) for lists and dicts.
+
+
 ## In place print replacement
 As suggested by user @nickdelgrosso in [Issue 7](https://github.com/abcnishant007/smartprint/issues/7),
 if 
