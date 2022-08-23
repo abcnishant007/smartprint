@@ -16,13 +16,13 @@ veryLongVariableName = 25
 sprint (veryLongVariableName) 
 ```
 
-#### Output:
+##### Output:
 ```python
 veryLongVariableName : 25
 ```
 
-
-#### Works with multiple variables and all kinds of objects 
+## Examples:
+#### 1. smartprint works with multiple variables and different kinds of objects 
 ```python
 from smartprint import smartprint as sprint 
 import numpy as np 
@@ -31,13 +31,52 @@ a = [1,22,31]
 sprint (a, len(a))
 sprint (np.random.rand())
 ```
-#### Output:
+##### Output:
 ```
 a, len(a) : [1, 22, 31] 3
 np.random.rand() : 0.649617730484109
 ```
 
-Now, `smartprint` includes pretty print (through `pprint` module) for lists and dicts.
+
+#### 2. Now, `smartprint` includes pretty print (through `pprint` module) for lists and dicts as shown below:
+##### 2 (a) List example
+```python
+a = [1, 4, 5, 3, 4, "This", "is", \
+     ["fun; The inspect module is"], \
+     "really powerful","What",["do", [9, 8, 6],"you", "think?", 5]]
+sprint (a)
+```
+##### Output:
+```
+List: a
+[1,
+ 4,
+ 5,
+ 3,
+ 4,
+ 'This',
+ 'is',
+ ['fun; The inspect module is'],
+ 'really powerful',
+ 'What',
+ ['do', [9, 8, 6], 'you', 'think?', 5]]
+```
+##### 2 (b) Dict example
+```python
+a = {1:2, 3:"Kumar",31:"Nishant", \
+     2.5:{1:2, 3:"Kumar",31:"Nishant", 0:"NK"}, 0:"NK"}
+sprint (a)
+```
+##### Output:
+```
+Dict: a
+Key: Value
+{0: 'NK',
+ 1: 2,
+ 2.5: {0: 'NK', 1: 2, 3: 'Kumar', 31: 'Nishant'},
+ 3: 'Kumar',
+ 31: 'Nishant'}
+ ```
 
 
 ## In place print replacement
