@@ -1,3 +1,2 @@
 numpy
 rich==12.6.0
-striprtf==0.0.21 
