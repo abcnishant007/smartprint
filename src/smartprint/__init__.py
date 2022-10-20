@@ -1,5 +1,5 @@
 import inspect
-from pprint import pprint
+from rich import print as rprint
 
 
 def smartprint(*argv, **kwargs):
@@ -30,10 +30,10 @@ def smartprint(*argv, **kwargs):
 
 def helper_smartprint_list(l, extracted_code):
     print("List:", extracted_code)
-    pprint(l)
+    rprint(l)
 
 
 def helper_smartprint_dict(d, extracted_code):
     print("Dict:", extracted_code)
     print("Key: Value")
-    pprint(d)
+    rprint(d)
