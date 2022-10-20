@@ -1,6 +1,6 @@
 import inspect
 from rich import print as rprint
-
+import pprint 
 
 def smartprint(*argv, **kwargs):
     """
@@ -36,4 +36,4 @@ def helper_smartprint_list(l, extracted_code):
 def helper_smartprint_dict(d, extracted_code):
     print("Dict:", extracted_code)
     print("Key: Value")
-    rprint(dict(sorted(d.items(), key=lambda item: item[0])))
+    rprint(pprint.pformat(d))
