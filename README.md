@@ -2,7 +2,7 @@
 [![Python application](https://github.com/abcnishant007/smartprint/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/abcnishant007/smartprint/actions/workflows/python-app.yml)  [![Upload Python Package](https://github.com/abcnishant007/smartprint/actions/workflows/python-publish.yml/badge.svg)](https://github.com/abcnishant007/smartprint/actions/workflows/python-publish.yml)  [![codecov](https://codecov.io/gh/abcnishant007/smartprint/branch/main/graph/badge.svg?token=JW8K38C2QR)](https://codecov.io/gh/abcnishant007/smartprint) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) [![Downloads](https://static.pepy.tech/personalized-badge/smartprint?period=total&units=international_system&left_color=black&right_color=green&left_text=Downloads)](https://pepy.tech/project/smartprint)
 ## smartprint
 Save a few seconds and a few keystrokes with every print statement! 😎 
-
+ 
 #### Usual print statment: 
 ```python
 print ("veryLongVariableName : ", veryLongVariableName)
